@@ -69,7 +69,7 @@ lista_t* lst_push(lista_t* lista_p, int info_p, int ini_p, int fim_p) {
 
 lista_t* lst_retira(lista_t* lista_p) {
 
-	if (lst_vazia(lista_p) == VERDADEIRO) return; // Ao retornar para main, pedir para verificar ERRO
+	if (lst_vazia(lista_p) == VERDADEIRO) return NULL; // Ao retornar para main, pedir para verificar ERRO
 	
 	lista_t* remover_elem = lista_p;
 
